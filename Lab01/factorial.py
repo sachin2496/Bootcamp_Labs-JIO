@@ -6,7 +6,6 @@ if len(sys.argv) == 1 :
     exit()
 else:
     args = sys.argv[1:]
-    print(args)
     a = args[0]
 
 
@@ -19,8 +18,6 @@ class compfactorial:
 
 
 obj = compfactorial()
-print("a : " + a)
-print(type(a))
 try:
     a_int = int(a)
     output = obj.compute(a_int)
